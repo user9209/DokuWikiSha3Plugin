@@ -1,0 +1,7 @@
+base   sha3sum
+author Georg Schmidt
+email  gs-develop@gs-sys.de
+date   2018-03-09
+name   SHA3SUM
+desc   Generates a SHA3 hash
+url    https://github.com/user9209/DokuWikiSha3Plugin/archive/master.zip
