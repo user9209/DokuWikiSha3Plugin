@@ -4,4 +4,4 @@ email  gs-develop@gs-sys.de
 date   2018-03-09
 name   SHA3SUM
 desc   Generates a SHA3 hash
-url    https://github.com/user9209/DokuWikiSha3Plugin/releases
+url    https://github.com/user9209/DokuWikiSha3Plugin/releases/download/version1.0/sha3sum.zip
