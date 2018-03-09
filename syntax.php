@@ -20,12 +20,12 @@ class syntax_plugin_sha3sum extends DokuWiki_Syntax_Plugin {
 
     // sorting order
     function getSort(){
-        return 35;
+        return -1;
     }
 
     // SHA3-Pattern
     function connectTo($mode) {
-    $this->Lexer->addSpecialPattern('\{\{SHA3>[^}]*\}\}',$mode,'plugin_sha3sum');
+    $this->Lexer->addSpecialPattern('\[\[SHA3:[^]]*\]\]',$mode,'plugin_sha3sum');
     }
 
     // Trim Match
@@ -47,7 +47,7 @@ class syntax_plugin_sha3sum extends DokuWiki_Syntax_Plugin {
                 require_once(realpath(dirname(__FILE__)).'/Sha3.php'); // extenal lib under MIT license
                 $hash = Sha3::hash($data, 512);
 			}
-           $renderer->doc .= 'SHA3-512:<br><div style="font-family: monospace; font-size: initial;">'.substr($hash,0,64).'<br>'.substr($hash,64).'</div>';
+           $renderer->doc .= 'SHA3-512:<br><p style="font-family: monospace; font-size: initial;">'.substr($hash,0,64).'<br>'.substr($hash,64).'</p>';
 
             return true;
         }
