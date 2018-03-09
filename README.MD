@@ -1,6 +1,16 @@
 SHA3SUM
 =======
 
+Install
+-------
+
+Install the plugin over the webfrontend by using the url:
+https://github.com/user9209/DokuWikiSha3Plugin/archive/master.zip
+
+
+How to use
+----------
+
 Generates a SHA3-512 hash of a string.
 
 Tag is [[SHA3:_INFORMATION_]] for hash of _INFORMATION_.
