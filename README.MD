@@ -27,3 +27,9 @@ Copyright
 
 Plugin code is under GPL 3 license by Georg Schmidt.  
 SHA3 code is under MIT license by Bruno Bierbaumer.
+
+
+Tested
+------
+
+Dokuwiki Version: 2018/08/11
