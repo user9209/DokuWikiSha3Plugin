@@ -32,4 +32,4 @@ SHA3 code is under MIT license by Bruno Bierbaumer.
 Tested
 ------
 
-Dokuwiki Version: 2018/08/11
+Dokuwiki Version: 2018-04-22a
